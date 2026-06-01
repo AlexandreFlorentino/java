@@ -1,0 +1,13 @@
+Algoritmo:
+Sequência finita de instruções para se resolver um problema.
+  aplica-se a diversas áreas de conhecimento.
+
+Automação: Consiste em utilizar máquinas para executar o procedimento desejado de forma automática ou semiautomática.
+
+O que algoritmo e automação tem haver com computação?
+  computador:
+  hardware - parte física
+  software - parte lógica
+
+programa = algoritmo(em partes)
+  proframas de computadores são algoritmos executados pelo computador(em linhas gerais)
