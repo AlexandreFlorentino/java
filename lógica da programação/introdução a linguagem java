@@ -1,0 +1,47 @@
+Como funciona o sistema de versão em java:
+
+Resumo das versões LTS: ANO
+JAVA 25 / 2025
+JAVA 21 / 2023
+JAVA 17 / 2021
+JAVA 11 / 2018
+JAVA 8/ 2014
+
+entre as lts, o java lança versões passageiras.
+
+Quando for desenvolver um projeto em JAVA, sempre usar versão LTS. Versões passageiros só é lançado para disponibilizar algum recurso para que os desenvolvedores possam ir se atualizando.
+
+O que é JAVA?
+Linguagem de programação(regras sintáticas)
+Plataforma de desenvolvimento e execução
+-bibliotecas(API)
+-Ambientes de execução
+
+Problemas resolvidos e motivo do seu sucesso:
+-Ponteiros / gerenciamento de memórias
+- portabilidade falha: reescrever parte do código ao mudar de SO
+- Utilização em dispositivos diversos
+- Custo
+
+Criada pela Sun Microsystems no meio da década de 1990
+
+Adquirida pela oracle corporation em 2010.
+
+-Código compilado para bytecode e executado em máquina virtual(JVM)
+-portável, segura, robusta
+-Roda em vários tipos de dispositivos
+-Domina o mercado corporativo desde o fim do século 20
+-Padrão android por muitos anos
+
+Edições do JAVA:
+
+JAVA ME - Java Micro Edition - Dispositivos embarcados e móveis - IoT
+
+JAVA SE - Java Standard Edition - Desktops e dispositivos móveis
+
+JAVA EE - Java Enterprise Edition - Aplicações corporativas.
+
+
+Plataforma JAVA SE
+-- Java Virtual Machine - JVM
+--- Máquina virtual do Java - necessário para executar sistemas Java.
