@@ -1,6 +1,22 @@
-Vamos precisar de uma linguagem de programação.
+Vamos precisar de uma linguagem de programação:
 
-1. Uma linguagem de programação.
-2. Uma IDE.
+1. Uma linguagem de programação: 
+É um conjunto de regras léxicas(ortografia) e sintáticas(gramática) para se escrever programas.
+Léxicas diz respeito a correção das palavras isoladas, ou seja, a ortografia. 
+Sintáticas diz respeito a correção das sentenças, é a gramática. 
+
+2. Uma IDE:
+Ambiente integrado de desenvolvimento -> é um conjunto de softwares utilizado para a construção de programas.
+Funcionalidades da IDE:
+Edição de código fonte.
+Depuração e testes
+Construção do produto final
+Sugestão de modelos
+auxiliar em várias tarefas do seu projeto
+
 3. Um compilador: software para transformar o código fonte em código objeto.
+Código fonte: Aquele que é escrito pelo programador em linguagem de programação.
+Compilação é um processo que transforma o código fonte em código executável. Durante o processo, o código fonte vira código obejeto.
+Vantagem da compilação: velocidade do programa, auxilio do compilador antes da execução.
+
 4. Um gerador de código ou máquina virtual: software que permite que o programa seja executado.
