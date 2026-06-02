@@ -1,0 +1,15 @@
+"Hello, World!" no Java:
+public class program {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello, world!");
+	}
+}
+
+
+Versão TLS 25:
+void main () {
+	
+	IO.println("Hello, world!");
+}
