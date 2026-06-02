@@ -45,3 +45,11 @@ JAVA EE - Java Enterprise Edition - Aplicações corporativas.
 Plataforma JAVA SE
 -- Java Virtual Machine - JVM
 --- Máquina virtual do Java - necessário para executar sistemas Java.
+
+Estrutura de uma aplicação JAVA.
+Java é uma linguagem orientada a objetos, e a unidade lógica básica de uma LOO é a classe.
+Todo código em Java deve estar em classes. 
+Depois da classe, temos o conceito de package, um agrupamento lógico de classes.
+Após o pacote, tem o conceito de módulo. Um agrupamento lógico de packages agrupados.
+***** Run time = agrupamento físico  *****
+aplicação = agrupamento de módulos relacionados.
