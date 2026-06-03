@@ -1,0 +1,30 @@
+Um programa de computador em execução lida com dados. Como esses dados são armazenados? Variáveis.
+
+                          VARIÁVEIS
+
+Definição informal: 
+Em programação, uma variáveç é uma porção de memória(RAM) utilizada para armazenar dados durante a execução dos programas. 
+
+                    DECLARAÇÃO DE VARIÁVEIS
+
+Sintaxe: 
+     <tipo> <nome> = <valor inicial>; 
+Exemplo:
+        int idade = 28;
+      double altura = 1.87;
+       char sexo = 'M';
+o valor inicial é opcional
+
+
+            TIPOS PRIMITIVOS EM JAVA
+     tipos númericos inteiros:  byte, short, int, long.
+     tipos numéricos com ponto flutuante: float, double.
+     um caractere unicode: chat
+    valor verdade: boolean
+String: cadeia de caracteres(palavras ou texto)
+
+Nome de variáveis:
+- Não pode começar com dígito: use uma letra ou_
+- Não pode ter espaço em branco.
+- Não pode usar acentos ou til
+- Sugestão: Use CamelCase.
