@@ -1,0 +1,18 @@
+
+operadores aritméticos
++ adição
+- subtração
+* multiplicação
+/ divisão
+% resto da divisão("mod")   (NÃO É PORCENTAGEM)
+
+Precedência: 1°: * / %
+             2°: + -
+
+2 * 6 / 3 = 4
+3 + 2 * 4 = 11
+(3 + 2) * 4 = 20
+60/(3+2) * 4 = 48
+60/((3+2)*4) = 3
+14 % 3 = 2
+19 % 5 = 4
