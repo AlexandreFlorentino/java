@@ -1,0 +1,27 @@
+Um programa de computador é capaz de realizar três operações: 
+1. Entrada de dados.
+2. Processamento de dados.
+3. Saída de dados.
+
+1. Entrada de dados são as informações nas quais o usuário informará para o programa. Esses dados serão armazenados em variáveis. O usuário informa os dados através de dispositivos de entrada, como teclado.
+2. Processamento de dados é quando o programa realiza o cálculo. O processamento é feito por atribuição.
+3. Saída de dados, quando o programa informa dados ao usuário. As informações passam do programa para o usuário através de um dispositivo de saída, como o monitor, por exemplo.
+
+Saída de dados: 
+Também chamado de escrita.
+
+Para escrever na tela um texto qualquer:
+Sem quebra de linha ao final: 
+System.out.print("Boa noite!");
+
+Com quebra de linha ao final:
+System.out.println("Boa noite!");
+
+Para escrever o conteúdo da variável: 
+System.out.println(nomedavariável);
+Ex.:
+int y = 32;
+System.out.println(y);
+
+Saída de dados: 32
+
