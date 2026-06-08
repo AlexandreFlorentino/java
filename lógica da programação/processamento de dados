@@ -1,0 +1,6 @@
+o processamento de dados é feito por atribuição.
+
+sintaxe:
+<variável> = <expressão>;
+
+casting é o mecanismo de conversão explícita entre tipos de dados compatíveis. Ele permite tratar um valor de um tipo como se fosse de outro tipo, geralmente em hierarquias de classes (upcasting/downcasting) ou entre tipos primitivos.
