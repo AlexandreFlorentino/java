@@ -1,0 +1,65 @@
+Recordando: Entrada de dados é quando o usuário envia dados para o programa. Os dados são enviados através de dispositivos de entrada, tais como teclado, microfone.
+A entrada de dados também é chamada de leitura.
+
+O JAVA tem uma particularidade para entrada de dados. É necessário criar um objeto do tipo "scanner", da seguinte forma: 
+Scanner sc = new Scanner(System.in);
+Scanner: Tipo particular de variável para entrada de dados.
+
+Suponha uma variável tipo String declarada:
+String x;
+x = sc.next();
+
+A seguir, um exemplo de como funciona o x= sc.next(); para receber aquilo que é digitado em terminal. Uma particularidade do Java.
+
+import java.util.Scanner;
+  public class Main {
+     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String x; 
+        x = sc.next();
+        System.out.println("O que eu digitar agora vai ser somado como a variável" + x);
+        sc.close();
+     }
+}
+
+A mensagem que eu digitar no terminal após isso, será atribuida a variável x. 
+O Java tem essa particularidade da linguagem. Consegue aderir aos comandos, dados e lógicas aderidas ao terminal.
+
+Para aderir a um número inteiro: 
+x = sc.nextInt();
+
+Exemplo:
+
+import java.util.Scanner;
+  public class Main {
+     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int x; 
+        x = sc.nextInt();
+        System.out.println("O que eu digitar agora vai ser somado como a variável" + x);
+        sc.close();
+     }
+}
+
+
+Para ler um número com ponto flutuante: x = sc.nextDouble();
+
+Atenção: o separador de decimal será com vírgulas, devido a linguagem brasileira. Caso precisemos transformar em ponto, devemos usar: Locale.setDefault(Locale.US);
+
+Exemplo:
+
+import java.util.Scanner;
+  public class Main {
+     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        double x; 
+        x = sc.nextDouble();
+        System.out.println("O que eu digitar agora vai ser somado como a variável" + x);
+        sc.close();
+     }
+}
+
