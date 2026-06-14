@@ -1,0 +1,18 @@
+são aquelas expressões que comparam uma coisa com outra.
+quando você avalia uma expressão comparativa, o valor dá um resultado booleano(true ou false)
+
+operadores comparativos:
+>   maior
+<   menor
+>=  maior ou igual
+<=  menor ou igual
+==   igual
+!=   diferente
+
+
+Ex: 
+Suponha X = 5
+X > 0      verdadeiro
+x == 3      falso
+10 <= 30   verdadeiro
+x != 2     verdadeiro
