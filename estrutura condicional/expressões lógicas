@@ -1,0 +1,43 @@
+assim como nas expressões comparativas, também resultam em valor verdade.
+operdadores lógico:
+&&   E
+||   OU
+!    NÃO
+
+operador E -> adição
+ex.: Gostaria de comprar uma camisa E uma calça
+Ou seja: Todas as condições DEVEM SER VERDADEIRAS.
+ ex.: x = 5
+ x <= 20 && x == 10
+ temos um resultado verdadeiro e outro falso, logo, o resultado da expressão é falso.
+
+ x> 0 && x != 3
+ temos duas condições verdadeiras, logo, o resultado será verdadeiro.
+
+ x <= 20 && x == 10 && x != 3  
+ temos apenas uma condição falsa, porém isso já compromete toda a expressão, logo o resultado da expressão é falsa.
+
+ Tabela verdade:
+ F  F     F
+ F  V     F
+ V  F     F
+ V  V     V
+
+
+ operador OU -> apenas uma condição já torna a expressão verdadeira.
+
+ ex.: x = 5
+ x == 10 || x <= 20 
+ como uma das condições é verdadeira, logo a expressão inteira é verdadeira.
+
+ Tabela verdade:
+F   F     F
+F   V     V
+V   V     V
+V   F     V
+
+operador NÃO! -> inverte o valor da expressão lógica.
+
+Tabela verdade:
+F  V
+V F
