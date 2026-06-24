@@ -1,0 +1,9 @@
+Estrutura opcional ao if-else quando se deseja decidir um VALOR com base em uma condição.
+sintaxe: 
+(condição) ? valor_se_verdadeiro : valor_se_falso
+
+exemplo e explicação:
+( 2 > 4 ) ? 50 : 80
+resultado: 80.
+A expressão(dentro do parênteses) é falsa, logo, o resultado será o valor do valor falso(80).
+
