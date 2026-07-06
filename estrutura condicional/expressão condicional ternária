@@ -7,3 +7,16 @@ exemplo e explicação:
 resultado: 80.
 A expressão(dentro do parênteses) é falsa, logo, o resultado será o valor do valor falso(80).
 
+Ex.: 
+double preco = 34.50$
+double desconto;
+if(preco < 20.00) {
+     desconto = preco * 0.1;
+}
+else{
+      desconto = preco * 0.5;
+}
+
+com condicional ternária:
+double preco = 34.5;
+double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
