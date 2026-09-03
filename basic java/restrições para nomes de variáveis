@@ -1,0 +1,6 @@
+Restrições para nomes de variáveis:
+1. não pode começar com dígito: use letra ou _
+2. não pode usar acentos ou til
+3. não pode ter espaço em branco
+
+Sugestão: use nomes que tenham significado
