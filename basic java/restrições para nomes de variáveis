@@ -4,3 +4,7 @@ Restrições para nomes de variáveis:
 3. não pode ter espaço em branco
 
 Sugestão: use nomes que tenham significado
+
+Usar sempre CamelCase. 
+ex: 
+int salarioDoFuncionario
