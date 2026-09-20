@@ -1,0 +1,11 @@
+Operadores bitwise são aqueles operadores que realizam operações lógicas bit a bit em valores.
+
+Operador:        Significado:
+&                Operação "E" bit a bit
+|                Operação "OU" bit a bit
+^                Operação "OU-exclusivo" bit a bit 
+
+Relembrando:
+A operação E só dá verdadeira quando as duas opções são verdadeiras.
+A operação OU só dá verdadeira quando uma das duas for verdadeira.
+A operação OU-EXCLUSIVO(XOR) só dá verdadeira quando apenas uma for verdadeira.
