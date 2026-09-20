@@ -1,0 +1,49 @@
+Conceito e Estrutura de Funções (Métodos)
+
+1. O que são?
+Representam um bloco de código reutilizável que realiza um processamento específico.
+Exemplos da biblioteca padrão:
+1. `Math.sqrt(double)` — Calcula a raiz quadrada de um número (retorna um valor).
+2. `System.out.println(String)` — Exibe uma mensagem no console (não retorna valor).
+
+2. Principais Vantagens
+Modularização: Divide o programa em partes menores e organizadas.
+Delegação: Passa a responsabilidade de uma tarefa específica para o método correto.
+Reaproveitamento: Evita a duplicação de código ao reutilizar a mesma função várias vezes.
+Manutenibilidade: Facilita a correção de bugs, pois a alteração é feita em um único lugar.
+Testabilidade: Permite testar partes isoladas do código de forma independente.
+
+3. Dados de Entrada e Saída
+Entrada (Parâmetros / Argumentos):
+Parâmetro: É a variável declarada na assinatura da função (ex: `double x`).
+Argumento: É o valor real passado para a função na hora da chamada (ex: `Math.sqrt(16.0)`).
+
+Saída (Retorno):
+Com retorno: Utilizam a palavra-chave `return` e especificam o tipo de dado devolvido (ex: `int`, `double`, `String`).
+Sem retorno (`void`): Apenas executam uma ação sem devolver um valor diretamente para quem a chamou.
+
+4. Orientação a Objetos (OO)
+Em OO, funções declaradas dentro de classes recebem o nome de métodos.
+Tipos principais de métodos:
+Métodos de Instância: Precisam de um objeto criado (`new`) para serem chamados (ex: `texto.toLowerCase()`).
+Métodos Estáticos (`static`): Pertencem à classe e podem ser chamados diretamente sem criar objetos (ex: `Math.sqrt(25)`).
+
+5. Sintaxe Geral em Java
+java
+ Estrutura básica:
+ <modificador> <tipo_de_retorno> <nomeDoMetodo>(<parametros>) { ... }
+
+public class Exemplo {
+
+    // Método com entrada e com retorno
+    public static int somar(int a, int b) {
+        return a + b;
+    }
+
+    // Método com entrada e sem retorno (void)
+    public static void saudar(String nome) {
+        System.out.println("Olá, " + nome + "!");
+    }
+}
+
+```
