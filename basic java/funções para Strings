@@ -1,0 +1,49 @@
+formatar string: 
+toLowerCase(), -> transformar para minúsculo.
+ex: 
+String texto = "JAVA É INCRÍVEL";
+String resultado = texto.toLowerCase(); // "java é incrível"
+
+toUpperCase(), -> transformar para maiúsculo.
+ex:
+String texto = "java é incrível";
+String resultado = texto.toUpperCase(); // "JAVA É INCRÍVEL"
+
+trim(), -> remover espaços
+ex:
+String texto = "   Olá, Mundo!   ";
+String resultado = texto.trim(); // "Olá, Mundo!"
+
+Recortar string():
+substring(inicio),
+ex:
+String texto = "Programação Java";
+String resultado = texto.substring(12); // "Java"
+
+substring(inicio, fim),
+ex:
+String texto = "Programação Java";
+String resultado = texto.substring(0, 11); // "Programação"
+
+Substituir carateres:
+Replace(char, char),
+ex:
+String texto = "banana";
+String resultado = texto.replace('a', 'o'); // "bonono"
+
+Replace(string, string)
+ex:
+String texto = "Gosto de Python";
+String resultado = texto.replace("Python", "Java"); // "Gosto de Java"
+
+Buscar String:
+IndexOf, 
+ex:
+String texto = "Aprender Java é excelente";
+int posicao = texto.indexOf("Java"); // 9
+
+LastIndexOf,
+ex:
+String texto = "banana";
+int ultimaPosicao = texto.lastIndexOf('a'); // 5
+
